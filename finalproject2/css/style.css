@@ -58,20 +58,6 @@ body {
 }
 }
 
-.responsive{
-  position:relative;
-  margin:20px 0;
-  max-width:100%;
-  vertical-align:middle;
-  margin-left:50px;
-}
-
-.responsive img{
-  height:auto;
-    max-width:100%;
-
-}
-
 .project{
   background:black;
 }
@@ -209,7 +195,7 @@ figure {
           bottom: 7px;
           left: 0;
           right: 0;
-          background-color: #000;
+          background-color:#000;
           visibility: hidden;
           -webkit-transform: scaleX(0);
           -moz-transform: scaleX(0);
@@ -299,7 +285,6 @@ figure {
   opacity:0.5;
 }
 
-
 @media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
      .projects{
       font-size: 50%; /*Changes as per your requirement*/
@@ -326,21 +311,66 @@ figure {
 
 
 /*for the first portfolio page*/
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color:darkgrey;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#one{
+align-items:center;
+}
+
 #projectname{
-  position:relative;
-  color:black;
-  font-size: 50px;
-  margin-top:10px;
-  margin-left:30px;
-  text-align:center;
+  color:#8B0000;
+  font-size:50px;
+  width:30%;
+  /*display:inline-block;
+  margin-left:auto;
+  margin-right:auto;*/
 }
 
 #projectsolution{
   position:relative;
-  align-items: center;
-  margin-top:50px;
-  margin-left:500px;
+  /*display: block;
+  margin-left: auto;
+  margin-right: auto;*/
 }
+
+/*making the app and idea name responsive*/
+.responsive{
+  position:relative;
+  margin:20px 0;
+  max-width:100%;
+  vertical-align:middle;
+}
+
+.responsive img{
+  height:auto;
+    max-width:100%;
+}
+
+.center{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:50%;
+}
+
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     #projectname{
+        font-size:70%; /*Changes as per your requirement*/
+     }
+}
+
+@media screen and (max-width:1000px) { /* for screen size less or equal to 700px*/
+  #projectname{
+    font-size: 100%; /*Changes as per your requirement*/
+}
+}
+
 
 #statement{
   position:relative;
@@ -1316,7 +1346,7 @@ body.offcanvas {
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
     .first-nav-toggle i::before, .first-nav-toggle i::after {
-      content: '';
+      content:'hey';
       width: 30px;
       height: 2px;
       background: #000;
@@ -1413,7 +1443,7 @@ body.offcanvas {
   padding: 10px !important; }
 
 .js .animate-box {
-  opacity: 0; }
+  opacity: 0;}
 
 #sticky_item {
   overflow: hidden;
