@@ -23,28 +23,43 @@ body {
 
 /*for the entry page before going into the portfolio*/
 #name{
-  margin-top: 100px;
+  margin-top:10%;
   position:relative;
   font-size:50px;
-  margin-left:100px;
+  margin-left:5%;
   color:#C0C0C0;
 }
 
 #subintro{
-   position:relative;
    font-size:30px;
    color:#C0C0C0;
+   margin-left: 5%
 }
 
-.Enter{
-  position:relative;
-  margin-top:100px;
-  margin left:200px;
+.responsive{
+  margin:20px 0;
+  max-width:100%;
+  vertical-align:middle;
+}
+
+.responsive img{
+  height:auto;
+    max-width:100%;
+
 }
 
 .maroon{
   background-color: white;
   color:#8B0000;
+}
+
+.bold{
+  background-color:white;
+  color:#A9A9A9;
+}
+
+.project{
+  background:black;
 }
 
 a {
@@ -347,6 +362,139 @@ figure {
   position:relative;
   margin-left:100px;
 }
+
+.center{
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+  width:50%;
+}
+
+/*for the second portfolio page*/
+#junctionjourney{
+  position:relative;
+  margin-top:50px;
+  margin-left:500px;
+}
+
+.underline{
+  background-color: white;
+  text-decoration: underline;
+}
+
+#problemstatement{
+  position:relative;
+  text-align:center;
+  margin-left:50px;
+  margin-top:20px;
+}
+
+#jjimage{
+   border:1px solid #021a40;
+}
+
+#stakeholders{
+  position:relative;
+  margin-top:30px;
+  margin-left:350px;
+}
+
+#strategy{
+  position:relative;
+  margin-left:280px;
+  margin-top:50px;
+}
+
+#stats{
+  position:relative;
+  margin-top:10px;
+  margin-right:40px;
+}
+
+.row3{
+  display:flex;
+}
+
+.row4{
+  margin-top:40px;
+  display:flex;
+}
+
+.row5{
+  display:flex;
+}
+
+.column3{
+  flex:50%;
+  padding:5px;
+  background-size:contain;
+}
+
+.column4{
+  flex:50%;
+  padding:5px;
+}
+
+.column5{
+  flex:50%;
+  padding:5px;
+}
+
+div#sketch1.column4{
+  width:450px;
+  height:350px;
+
+}
+
+div#sketch2.column4{
+  width:450px;
+  height:350px;
+}
+
+#sketch1{
+  position:relative;
+  margin-left:260px;
+}
+
+#sketchA{
+  border:1px solid #021a40;
+}
+
+#sketchB{
+  border:1px solid #021a40;
+}
+
+#sketchtag{
+  position:relative;
+  margin-top:10px;
+  margin-left:40px;
+}
+
+.AR{
+  margin-top:40px;
+  position:relative;
+  margin-left:430px;
+}
+
+.ARExplain{
+  position:relative;
+  margin-top:50px;
+  margin-left:170px;
+  text-align:center;
+}
+
+.finaljourney{
+  position:relative;
+  margin-top:20px;
+  margin-left:100px;
+}
+
+.journeyexplain{
+  position:relative;
+  margin-top:50px;
+}
+
+
 
 #first-hero {
   min-height: 500px;
@@ -1226,3 +1374,4 @@ body.offcanvas {
     height: inherit !important;
     float: left;
     padding-top: 30px; } }
+
