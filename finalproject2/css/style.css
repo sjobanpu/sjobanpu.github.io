@@ -318,31 +318,24 @@ figure {
 
 
 /*for the first portfolio page*/
-.dot {
-  height: 15px;
-  width: 15px;
+.dot{
+  height:25px;
+  width: 25px;
   background-color:darkgrey;
   border-radius: 50%;
   display: inline-block;
 }
 
-#one{
-text-align:right;
+.one{
+text-align:center;
+align-items:center;
+padding-left:20px;
+padding-right:10px;
 }
 
-#projectname{
+.maroon{
+  background-color:white;
   color:#8B0000;
-  font-size:50px;
-  /*display:inline-block;
-  margin-left:auto;
-  margin-right:auto;*/
-}
-
-#projectsolution{
-  position:relative;
-  /*display: block;
-  margin-left: auto;
-  margin-right: auto;*/
 }
 
 /*making the app and idea name responsive*/
@@ -358,68 +351,117 @@ text-align:right;
     max-width:100%;
 }
 
-.center{
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  width:50%;
-}
 
 @media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
-     #projectname{
+     .projectname{
         font-size:70%; /*Changes as per your requirement*/
      }
 }
 
 @media screen and (max-width:1000px) { /* for screen size less or equal to 700px*/
-  #projectname{
+  .projectname{
     font-size: 100%; /*Changes as per your requirement*/
 }
 }
 
-
-/*#statement{
-  position:relative;
-  text-align:center;
-  margin-top:15px;
-  font-size:15px;
+.projectname{
+  color:#8B0000;
+  font-size:50px;
 }
 
-#problemsummary{
-  position:relative;
-  text-align:center;
-  margin-top:15px;
-  font-size:15px;
-  margin-left:30px;
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     .statement{
+        font-size: 50%; /*Changes as per your requirement*/
+     }
 }
 
-#process{
-  margin-top:30px;
-  position:relative;
-  margin-left:80px;
-  text-align:center;}
+@media screen and (max-width:1000px) { /* for screen size less or equal to 700px*/
+  .statement{
+    font-size: 100%; /*Changes as per your requirement*/
+}
+}
+
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     .problemsummary{
+        font-size: 50%; /*Changes as per your requirement*/
+     }
+}
+
+@media screen and (max-width:1000px) { /* for screen size less or equal to 700px*/
+  .problemsummary{
+    font-size: 100%; /*Changes as per your requirement*/
+}
+}
+
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     .process{
+        font-size: 50%; /*Changes as per your requirement*/
+     }
+}
+
+@media screen and (max-width:800px) { /* for screen size less or equal to 700px*/
+  .process{
+    font-size: 100%; /*Changes as per your requirement*/
+}
+}
+
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     .model{
+        font-size: 50%; /*Changes as per your requirement*/
+     }
+}
+
+@media screen and (max-width:800px) { /* for screen size less or equal to 700px*/
+  .model{
+    font-size: 100%; /*Changes as per your requirement*/
+}
+}
+
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     .StoryboardSelection{
+        font-size: 50%; /*Changes as per your requirement*/
+     }
+}
+
+@media screen and (max-width:800px) { /* for screen size less or equal to 700px*/
+  .StoryboardSelection{
+    font-size: 100%; /*Changes as per your requirement*/
+}
+}
+
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     .finalexplanation{
+        font-size: 50%; /*Changes as per your requirement*/
+     }
+}
+
+@media screen and (max-width:800px) { /* for screen size less or equal to 700px*/
+  .finalexplanation{
+    font-size: 100%; /*Changes as per your requirement*/
+}
+}
+
+#projectsolution{
+  padding-left:500px;
+}
 
 #processpic{
-  position:relative;
-  margin-left:300px;
-  margin-top:40px;
+  width:140%;
 }
 
-#projecttext1{
-  position:relative;
-  margin-right:100px;
+#image1{
+  padding-left:50px;
 }
 
-.StoryboardSelection{
-  position:relative;
-  margin-left:100px;
-  margin-top:350px;
+.row2{
+  padding-left:20px;
 }
 
-.finalexplanation{
-  position:relative;
-  margin-left:100px;
-}*/
+#final{
+  border:3px;
+  border-color:gray;
+  margin-right:80px;
+}
 
 .row1{
   display:flex;
@@ -438,7 +480,6 @@ text-align:right;
 }
 
 
-
 .storyboarding{
   position:relative;
   margin-top:600px;
@@ -455,60 +496,158 @@ text-align:right;
   margin-left:100px;
 }
 
-.center{
-  display:block;
-  margin-left: auto;
-  margin-right:auto;
-  width:50%;
-}
-
 /*for the second portfolio page*/
-#junctionjourney{
-  position:relative;
-  margin-top:50px;
-  margin-left:500px;
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     #problemstatement{
+        font-size: 50%; /*Changes as per your requirement*/
+     }
 }
 
-.underline{
-  background-color: white;
-  text-decoration: underline;
+@media screen and (max-width:900px) { /* for screen size less or equal to 700px*/
+  #problemstatement{
+    font-size: 100%; /*Changes as per your requirement*/
+}
+}
+
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     #strategy{
+        font-size: 50%; /*Changes as per your requirement*/
+     }
+}
+
+@media screen and (max-width:900px) { /* for screen size less or equal to 700px*/
+  #strategy{
+    font-size: 100%; /*Changes as per your requirement*/
+}
+}
+
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     .ARExplain{
+        font-size: 50%; /*Changes as per your requirement*/
+     }
+}
+
+@media screen and (max-width:900px) { /* for screen size less or equal to 700px*/
+  .ARExplain{
+    font-size: 100%; /*Changes as per your requirement*/
+}
+}
+
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     .journeyexplain{
+        font-size: 50%; /*Changes as per your requirement*/
+     }
+}
+
+@media screen and (max-width:900px) { /* for screen size less or equal to 700px*/
+  .journeyexplain{
+    font-size: 100%; /*Changes as per your requirement*/
+}
+}
+
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     .ideation{
+        font-size: 50%; /*Changes as per your requirement*/
+     }
+}
+
+@media screen and (max-width:900px) { /* for screen size less or equal to 700px*/
+  .ideation{
+    font-size: 100%; /*Changes as per your requirement*/
+}
+}
+
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     .prototype{
+        font-size: 50%; /*Changes as per your requirement*/
+     }
+}
+
+@media screen and (max-width:900px) { /* for screen size less or equal to 700px*/
+  .prototype{
+    font-size: 100%; /*Changes as per your requirement*/
+}
+}
+
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     .roadmap{
+        font-size: 50%; /*Changes as per your requirement*/
+     }
+}
+
+@media screen and (max-width:900px) { /* for screen size less or equal to 700px*/
+  .roadmap{
+    font-size: 100%; /*Changes as per your requirement*/
+}
+}
+
+
+#jjimage{
+  padding-right:10px;
+  margin-left:70px;
+}
+
+#junctionjourney{
+  margin-left:450px;
+}
+
+.two{
+text-align:center;
+align-items:center;
+margin-right:3px;
+}
+
+#sketch1{
+  border-color:black;
+  border-width:2px;
+  margin-right:10px;
+}
+
+#strategy{
+  margin-left:150px;
+  margin-top:50px;
+}
+/*#prototype{
+ align-items: center;
+ margin-left:200px;
+}
+
+.pro{
+  margin-left:200px;
+}*/
+/*.row4{
+  margin-right:20px;
+}
+
+.pics{
+  margin-right:20px;
+}
+
+.AR{
+align-items:left;
+margin-right:900px;
 }
 
 #problemstatement{
-  position:relative;
   text-align:center;
   margin-left:50px;
   margin-top:20px;
 }
 
-#jjimage{
-   border:1px solid #021a40;
-}
-
 #stakeholders{
-  position:relative;
-  margin-top:30px;
-  margin-left:350px;
-}
-
-#strategy{
-  position:relative;
-  margin-left:280px;
-  margin-top:50px;
+padding-right:10px;
 }
 
 #stats{
-  position:relative;
   margin-top:10px;
   margin-right:40px;
-}
+}*/
 
 .row3{
   display:flex;
 }
 
 .row4{
-  margin-top:40px;
   display:flex;
 }
 
@@ -519,7 +658,7 @@ text-align:right;
 .column3{
   flex:50%;
   padding:5px;
-  background-size:contain;
+  /*background-size:contain;*/
 }
 
 .column4{
@@ -532,22 +671,6 @@ text-align:right;
   padding:5px;
 }
 
-div#sketch1.column4{
-  width:450px;
-  height:350px;
-
-}
-
-div#sketch2.column4{
-  width:450px;
-  height:350px;
-}
-
-#sketch1{
-  position:relative;
-  margin-left:260px;
-}
-
 #sketchA{
   border:1px solid #021a40;
 }
@@ -556,20 +679,13 @@ div#sketch2.column4{
   border:1px solid #021a40;
 }
 
-#sketchtag{
+/*#sketchtag{
   position:relative;
   margin-top:10px;
   margin-left:40px;
 }
 
-.AR{
-  margin-top:40px;
-  position:relative;
-  margin-left:430px;
-}
-
 .ARExplain{
-  position:relative;
   margin-top:50px;
   margin-left:170px;
   text-align:center;
@@ -584,9 +700,53 @@ div#sketch2.column4{
 .journeyexplain{
   position:relative;
   margin-top:50px;
+}*/
+
+/*portfolio page three*/
+
+
+
+
+
+/*portfolio page four*/
+.title{
+  color:#8B0000;
+  font-size:50px;
 }
 
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     .title{
+        font-size: 50%; /*Changes as per your requirement*/
+     }
+}
 
+@media screen and (max-width:1000px) { /* for screen size less or equal to 700px*/
+  .title{
+    font-size: 100%; /*Changes as per your requirement*/
+}
+}
+
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     .outline{
+        font-size: 50%; /*Changes as per your requirement*/
+     }
+}
+
+@media screen and (max-width:1000px) { /* for screen size less or equal to 700px*/
+  .outline{
+    font-size: 100%; /*Changes as per your requirement*/
+}
+}
+
+.four{
+text-align:center;
+align-items:center;
+margin-right:3px;
+}
+
+#BREN{
+  margin-left:470px;
+}
 
 #first-hero {
   min-height: 500px;
@@ -714,7 +874,7 @@ body.offcanvas {
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
     transform: translateX(0);
-    width: 270px;
+    width:200px;
     background: #fff;
     z-index: 999;
     position: fixed; }
