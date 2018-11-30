@@ -29,11 +29,18 @@ body {
   color:#C0C0C0;
 }
 
-.next{
-  padding-left:50px;
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
+.enter{
+  position:relative;
+  margin-left:550px;
+  margin-top:50px;
+}
+
+.background{
+  background-color:#D3D3D3;
+  background-size:40px 40px;
+  color:#8B0000;
+  font-size:25px;
+  font-family:"Quicksand",sans-serif;
 }
 
 #subintro{
@@ -61,6 +68,18 @@ body {
 
 @media screen and (max-width:1000px) { /* for screen size less or equal to 700px*/
 #subintro{
+    font-size: 100%; /*Changes as per your requirement*/
+}
+}
+
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     .background:{
+        font-size: 50%; /*Changes as per your requirement*/
+     }
+}
+
+@media screen and (max-width:1000px) { /* for screen size less or equal to 700px*/
+.background{
     font-size: 100%; /*Changes as per your requirement*/
 }
 }
@@ -288,8 +307,9 @@ figure {
   padding-right:40px;
 }
 
-.col-md-6 col-sm-6 animate-box{
+.animate-box{
   opacity:0.5;
+  color:darkgrey;
 }
 
 @media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
@@ -339,18 +359,16 @@ padding-right:10px;
 }
 
 /*making the app and idea name responsive*/
-.responsive{
-  position:relative;
+.img-container{
   margin:20px 0;
   max-width:100%;
   vertical-align:middle;
 }
 
-.responsive img{
+.img-container img{
   height:auto;
-    max-width:100%;
+  max-width:100%;
 }
-
 
 @media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
      .projectname{
@@ -607,14 +625,15 @@ margin-right:3px;
   margin-left:150px;
   margin-top:50px;
 }
-/*#prototype{
+
+prototype{
  align-items: center;
  margin-left:200px;
 }
 
 .pro{
   margin-left:200px;
-}*/
+}
 /*.row4{
   margin-right:20px;
 }
@@ -703,9 +722,16 @@ padding-right:10px;
 }*/
 
 /*portfolio page three*/
+.piece{
+  color:#8B0000;
+  font-size:50px;
+}
 
-
-
+.three{
+  text-align:center;
+  align-items:center;
+  margin-right:3px;
+}
 
 
 /*portfolio page four*/
@@ -1611,7 +1637,7 @@ body.offcanvas {
   padding: 10px !important; }
 
 .js .animate-box {
-  opacity: 0;}
+  opacity:0;}
 
 #sticky_item {
   overflow: hidden;
