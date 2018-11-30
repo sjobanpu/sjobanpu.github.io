@@ -548,7 +548,7 @@ padding-right:10px;
 
 #jjimage{
   padding-right:10px;
-  margin-right:50px;
+  margin-left:70px;
 }
 
 #junctionjourney{
@@ -560,9 +560,14 @@ padding-right:10px;
 .two{
 text-align:center;
 align-items:center;
-margin-right:5px;
+margin-right:3px;
 }
 
+#sketch1{
+  border-color:black;
+  border-width:2px;
+  margin-right:10px;
+}
 .row4{
   margin-right:20px;
 }
@@ -572,8 +577,7 @@ margin-right:5px;
 }
 
 .AR{
-  align-items:right;
-  margin-right:100px;
+  padding-right:400px;
 }
 #problemstatement{
   position:relative;
