@@ -25,8 +25,15 @@ body {
 #name{
   margin-top:10%;
   position:relative;
-  margin-left:5%;
+  margin-left:60px;
   color:#C0C0C0;
+}
+
+.next{
+  padding-left:50px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 #subintro{
@@ -56,20 +63,6 @@ body {
 #subintro{
     font-size: 100%; /*Changes as per your requirement*/
 }
-}
-
-.responsive{
-  position:relative;
-  margin:20px 0;
-  max-width:100%;
-  vertical-align:middle;
-  margin-left:50px;
-}
-
-.responsive img{
-  height:auto;
-    max-width:100%;
-
 }
 
 .project{
@@ -130,9 +123,9 @@ figure {
 #first-aside {
   padding-top: 3em;
   padding-bottom: 40px;
-  padding-left: 3em;
-  padding-right: 3em;
-  width: 20%;
+  padding-left: 2em;
+  padding-right: 6em;
+  width:40%;
   position: fixed;
   bottom: 0;
   top: 0;
@@ -209,7 +202,7 @@ figure {
           bottom: 7px;
           left: 0;
           right: 0;
-          background-color: #000;
+          background-color:#000;
           visibility: hidden;
           -webkit-transform: scaleX(0);
           -moz-transform: scaleX(0);
@@ -299,7 +292,6 @@ figure {
   opacity:0.5;
 }
 
-
 @media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
      .projects{
       font-size: 50%; /*Changes as per your requirement*/
@@ -326,23 +318,154 @@ figure {
 
 
 /*for the first portfolio page*/
-#projectname{
+.dot{
+  height:25px;
+  width: 25px;
+  background-color:darkgrey;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.one{
+text-align:center;
+align-items:center;
+padding-left:20px;
+padding-right:10px;
+}
+
+
+.maroon{
+  background-color:white;
+  color:#8B0000;
+}
+
+/*making the app and idea name responsive*/
+.responsive{
   position:relative;
-  color:black;
-  font-size: 50px;
-  margin-top:10px;
-  margin-left:30px;
-  text-align:center;
+  margin:20px 0;
+  max-width:100%;
+  vertical-align:middle;
+}
+
+.responsive img{
+  height:auto;
+    max-width:100%;
+}
+
+
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     .projectname{
+        font-size:70%; /*Changes as per your requirement*/
+     }
+}
+
+@media screen and (max-width:1000px) { /* for screen size less or equal to 700px*/
+  .projectname{
+    font-size: 100%; /*Changes as per your requirement*/
+}
+}
+
+.projectname{
+  color:#8B0000;
+  font-size:50px;
+}
+
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     .statement{
+        font-size: 50%; /*Changes as per your requirement*/
+     }
+}
+
+@media screen and (max-width:1000px) { /* for screen size less or equal to 700px*/
+  .statement{
+    font-size: 100%; /*Changes as per your requirement*/
+}
+}
+
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     .problemsummary{
+        font-size: 50%; /*Changes as per your requirement*/
+     }
+}
+
+@media screen and (max-width:1000px) { /* for screen size less or equal to 700px*/
+  .problemsummary{
+    font-size: 100%; /*Changes as per your requirement*/
+}
+}
+
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     .process{
+        font-size: 50%; /*Changes as per your requirement*/
+     }
+}
+
+@media screen and (max-width:800px) { /* for screen size less or equal to 700px*/
+  .process{
+    font-size: 100%; /*Changes as per your requirement*/
+}
+}
+
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     .model{
+        font-size: 50%; /*Changes as per your requirement*/
+     }
+}
+
+@media screen and (max-width:800px) { /* for screen size less or equal to 700px*/
+  .model{
+    font-size: 100%; /*Changes as per your requirement*/
+}
+}
+
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     .StoryboardSelection{
+        font-size: 50%; /*Changes as per your requirement*/
+     }
+}
+
+@media screen and (max-width:800px) { /* for screen size less or equal to 700px*/
+  .StoryboardSelection{
+    font-size: 100%; /*Changes as per your requirement*/
+}
+}
+
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     .finalexplanation{
+        font-size: 50%; /*Changes as per your requirement*/
+     }
+}
+
+@media screen and (max-width:800px) { /* for screen size less or equal to 700px*/
+  .finalexplanation{
+    font-size: 100%; /*Changes as per your requirement*/
+}
 }
 
 #projectsolution{
-  position:relative;
-  align-items: center;
-  margin-top:50px;
-  margin-left:500px;
+  padding-left:500px;
 }
 
-#statement{
+#processpic{
+  width:140%;
+}
+
+#image1{
+  padding-left:50px;
+}
+
+.row2{
+  padding-left:20px;
+}
+
+#final{
+  border:3px;
+  border-color:gray;
+  margin-right:80px;
+}
+
+
+/*#statement{
   position:relative;
   text-align:center;
   margin-top:15px;
@@ -357,17 +480,29 @@ figure {
   margin-left:30px;
 }
 
-#processpic{
-  position:relative;
-  margin-left:300px;
-  margin-top:40px;
-}
-
 #process{
   margin-top:30px;
   position:relative;
   margin-left:80px;
   text-align:center;}
+
+
+
+#projecttext1{
+  position:relative;
+  margin-right:100px;
+}
+
+.StoryboardSelection{
+  position:relative;
+  margin-left:100px;
+  margin-top:350px;
+}
+
+.finalexplanation{
+  position:relative;
+  margin-left:100px;
+}*/
 
 .row1{
   display:flex;
@@ -385,10 +520,7 @@ figure {
   margin-left:150px;
 }
 
-#projecttext1{
-  position:relative;
-  margin-right:100px;
-}
+
 
 .storyboarding{
   position:relative;
@@ -400,28 +532,10 @@ figure {
   margin-left:200px;
 }
 
-.StoryboardSelection{
-  position:relative;
-  margin-left:100px;
-  margin-top:350px;
-}
-
 .finaldesign{
   position:relative;
   margin-top:60px;
   margin-left:100px;
-}
-
-.finalexplanation{
-  position:relative;
-  margin-left:100px;
-}
-
-.center{
-  display:block;
-  margin-left: auto;
-  margin-right:auto;
-  width:50%;
 }
 
 /*for the second portfolio page*/
@@ -676,7 +790,7 @@ body.offcanvas {
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
     transform: translateX(0);
-    width: 270px;
+    width:200px;
     background: #fff;
     z-index: 999;
     position: fixed; }
@@ -1316,7 +1430,7 @@ body.offcanvas {
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
     .first-nav-toggle i::before, .first-nav-toggle i::after {
-      content: '';
+      content:'hey';
       width: 30px;
       height: 2px;
       background: #000;
@@ -1413,7 +1527,7 @@ body.offcanvas {
   padding: 10px !important; }
 
 .js .animate-box {
-  opacity: 0; }
+  opacity: 0;}
 
 #sticky_item {
   overflow: hidden;
