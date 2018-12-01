@@ -459,59 +459,43 @@ padding-right:10px;
 }
 }
 
-#projectsolution{
-  padding-left:500px;
+#solutionpic{
+  padding-left:42%;
 }
 
 #processpic{
   width:140%;
+  padding-left:30%;
 }
 
-#image1{
-  padding-left:50px;
+#dayinlife{
+  margin-left:20%;
 }
 
-.row2{
-  padding-left:20px;
+.affinities{
+  margin-right:10%;
 }
 
-#final{
-  border:3px;
+
+#storyboard1{
+  margin-left:35%;
+}
+
+#storyboard2{
+  margin-left:35%;
+}
+#finaldesign{
+  border:1%;
   border-color:gray;
-  margin-right:80px;
+  margin-right:8%;
 }
 
 .row1{
   display:flex;
 }
 
-.col-md-6{
-  flex:50%;
-  padding:5px;
-  margin-top:50px;
-  background-size:contain;
-}
-
-#image1{
-  position:relative;
-  margin-left:150px;
-}
-
-
-.storyboarding{
-  position:relative;
-  margin-top:600px;
-}
-
-#storyboard1{
-  position:relative;
-  margin-left:200px;
-}
-
-.finaldesign{
-  position:relative;
-  margin-top:60px;
-  margin-left:100px;
+#finaldesign{
+  margin-left:30%;
 }
 
 /*for the second portfolio page*/
