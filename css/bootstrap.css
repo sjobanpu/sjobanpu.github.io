@@ -3762,6 +3762,11 @@ tbody.collapse.in {
   }
 }
 
+.img-fluid{
+  height:auto;
+  max-width:100%;
+}
+
 .navbar-nav {
   margin: 8.75px -15px;
 }
