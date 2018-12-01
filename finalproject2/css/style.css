@@ -744,6 +744,73 @@ margin-right:3%;
   margin-left:47%;
 }
 
+/*aboutme*/
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     .hello{
+        font-size: 50%; /*Changes as per your requirement*/
+     }
+}
+
+@media screen and (max-width:800px) { /* for screen size less or equal to 700px*/
+  .hello{
+    font-size: 100%; /*Changes as per your requirement*/
+}
+}
+@media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
+     .outsideinterests{
+        font-size: 50%; /*Changes as per your requirement*/
+     }
+}
+
+@media screen and (max-width:800px) { /* for screen size less or equal to 700px*/
+  .outsideinterests{
+    font-size: 100%; /*Changes as per your requirement*/
+}
+}
+.hello{
+  margin-top:10%;
+  margin-left:20%;
+  font-size:30px;
+}
+
+.outsideinterests{
+  margin-left:20%;
+}
+
+#picture{
+  margin-left:20%;
+}
+
+
+/*contact form*/
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color:#8B0000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
 #first-hero {
   min-height: 500px;
   background: #fff url(../images/loader.gif) no-repeat center center;
