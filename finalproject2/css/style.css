@@ -25,19 +25,19 @@ body {
 #name{
   margin-top:10%;
   position:relative;
-  margin-left:60px;
+  margin-left:6%;
   color:#C0C0C0;
 }
 
 .enter{
   position:relative;
-  margin-left:550px;
-  margin-top:50px;
+  margin-left:45%;
+  margin-top:5%;
 }
 
 .background{
   background-color:#D3D3D3;
-  background-size:40px 40px;
+  background-size:4% 4%;
   color:#8B0000;
   font-size:25px;
   font-family:"Quicksand",sans-serif;
@@ -45,7 +45,7 @@ body {
 
 #subintro{
    color:#C0C0C0;
-   margin-left: 5%
+   margin-left:5%
 }
 
 @media screen and (max-width: 320px) { /* for screen size less or equal to 320px*/
@@ -87,7 +87,7 @@ body {
 .project{
   background:black;
 }
-
+/**/
 a {
   color: #F75940;
   -webkit-transition: 0.5s;
